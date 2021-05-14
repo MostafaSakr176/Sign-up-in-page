@@ -1,0 +1,44 @@
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+    </head>
+    
+    <body>
+        <span class="d-none" id="username"></span>
+    
+        <div class="container my-5 text-center">
+            <div class="group m-auto w-75 p-5">
+                <h1>Smart Login System</h1>
+                
+                <p class="text-light text-left mb-0">your name</p>
+                <input id="signUpName" class="form-control mt-1 mb-3" placeholder="start with capital litter and contain (3-8) litters" type="text">
+                <p class="text-light text-left mb-0">your Email</p>
+                <input id="signUpEmail" class="form-control mt-1 mb-3" placeholder="Examble@examble.com" type="email">
+                <p class="text-light text-left mb-0">your Password</p>
+                <input id="signUpPass" class="form-control mt-1 mb-3" placeholder="Enter your password" type="password">
+                <p id="exist"></p>
+
+                <button onclick="signUp()" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+                <p class="text-white">You have an account? <a class="text-white" href="login.html">Signin</a></p>
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+        <script src="../js/jquery-3.6.0.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+    
+    </html>
